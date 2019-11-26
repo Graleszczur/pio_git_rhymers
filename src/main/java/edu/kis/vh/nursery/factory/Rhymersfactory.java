@@ -6,7 +6,7 @@ public interface Rhymersfactory {
 
     DefaultCountingOutRhymer getStandardRhymer();//this is a comment to mock changes i've made earlier
 
-    DefaultCountingOutRhymer getFalseRhymer();
+    DefaultCountingOutRhymer getFalseRhymer();//this is a comment to mock class names changes i ve made earlier
 
     DefaultCountingOutRhymer getFIFORhymer();
 
