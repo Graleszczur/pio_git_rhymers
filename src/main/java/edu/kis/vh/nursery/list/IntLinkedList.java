@@ -1,5 +1,6 @@
 package edu.kis.vh.nursery.list;
 
+
 public class IntLinkedList {
 
     private final int POP_RETURN_VALUE_IF_LIST_IS_EMPTY = -1;
