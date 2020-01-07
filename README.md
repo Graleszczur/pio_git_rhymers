@@ -10,3 +10,8 @@ na wydziale Elektrotechniki, Elektroniki Informatyki i Automatyki Politechniki �
 ## materiały i dodatkowe informacje
 
 - [WIKI projektu z opisem zadań oraz sposobu współpracy studentów w ich realizacji](https://github.com/iis-io-team/pio_git_rhymers/wiki)
+
+
+## Project UML
+![alt text](https://i.imgur.com/FyNq3nB.png)
+
