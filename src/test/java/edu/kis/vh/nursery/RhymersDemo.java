@@ -5,6 +5,9 @@ import edu.kis.vh.nursery.factory.Rhymersfactory;
 
 class RhymersDemo {
 
+	public static final int twenty = 20;
+	public static final int three = 3;
+
 	public static void main(String[] args) {
 		Rhymersfactory factory = new DefaultRhymersFactory();
 		
@@ -12,12 +15,12 @@ class RhymersDemo {
 				factory.GetFIFORhymer(), factory.GetHanoiRhymer()};
 		
 		for (int i = 1; i < 15; i++)
-			for (int j = 0; j < 3; j++)
+			for (int j = 0; j < three; j++)
 				rhymers[j].countIn(i);
 		
 		java.util.Random rn = new java.util.Random();
 		for (int i = 1; i < 15; i++)
-			rhymers[3].countIn(rn.nextInt(20));
+			rhymers[three].countIn(rn.nextInt(twenty));
 		
 		for (int i = 0; i < rhymers.length; i++) {
 			while (!rhymers[i].callCheck())
@@ -26,7 +29,7 @@ class RhymersDemo {
 		}
 		
 		System.out.println("total rejected is "
-				+ ((HanoiRhymer) rhymers[3]).reportRejected());
+				+ ((HanoiRhymer) rhymers[three]).reportRejected());
 		
 	}
 	
